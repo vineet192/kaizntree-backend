@@ -1,3 +1,4 @@
 kenv
 __pycache__
 .env
+db.sqlite3
