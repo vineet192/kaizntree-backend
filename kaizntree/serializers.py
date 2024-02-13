@@ -4,4 +4,4 @@ from kaizntree.models import InventoryItem
 class InventoryItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = InventoryItem
-        fields = ['user_id', 'sku', 'name', 'tags', 'category', 'in_stock', 'available_stock']
+        fields = ['user_id','sku', 'name', 'tags', 'category', 'in_stock', 'available_stock', 'created']
