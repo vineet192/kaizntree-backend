@@ -20,5 +20,10 @@
 - run `docker run -t kaizntree_vineet -p 8000:8000` to run the docker image
 - The server should be running and listengin on http://localhost:8000
 
+# Steps to run automated tests
+- run the server using any of the 2 approaches above
+- update the auth token retrieved from the frontend in tests/inventory_test_api.py
+- run the tests with `python3 manage.py test --keepdb`
+
 # API Reference
 The API documentation can be found [here](https://app.swaggerhub.com/apis/VKALGHATGI192_1/calander-ai/1.0.0)
